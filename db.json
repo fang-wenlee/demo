@@ -2,6 +2,7 @@
   
   "user": {
     "id": 1,
-    "name": "Fang-Wen Lee"
+    "firstname": "Fang-Wen",
+    "lastname": "Lee"
   }
 }
