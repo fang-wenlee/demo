@@ -1,5 +1,4 @@
-export const articles = [
-    {
+ [{
         name: 'learn-react',
         title: 'The Fastest Way to Learn React',
         content: [
@@ -71,48 +70,5 @@ export const articles = [
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
         ]
-    }, 
-    {
-        name: 'ES6',
-        title: 'The modern syntac of Javascript',
-        content: [
-            `function groupsamemean(a){`,    
-    
-                `var b =[]`,
-                `var k=0; // index for inner element`,
-                `for (let i=0; i<a.length; i++){`,
-                     `var sum =0;`,
-                     `for ( let j=0; j<a[k].length; j++){`,
-                         ` sum += a[k][j];`,
-                   `  }`,
-                   
-                    ` b.push([sum/a[k].length, i])`,
-                    `k++;`,
-                `}`,
-                `b= b.sort();`,
-               ` console.log(b);`,
-                `var res=[],k=0, r=0;`,
-            
-               ` for ( var i=0; i<b.length; i++){`,
-                     ` res[r]=[];`,
-                     ` res[r][k] = b[i][1];`,
-                    `for( var j=i+1; j<= b.length-1; j++){`,
-                           `if ( b[i][0] == b[j][0]){`,
-                                ` k++;`,
-                                 `res[r][k] = b[j][1];`,
-                           `}else{`,
-                               `i= j-1;`,
-                               `k=0;`,
-                               `r=r+1;`,
-                               `break;}`,
-                    `}//for`,
-                `}//for`,
-                `return res`,
-            
-            `}`,
-           
-        ]
-    } 
-];
-
-export default articles;
+    }
+]
