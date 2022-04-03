@@ -3,6 +3,7 @@
   "user": {
     "id": 1,
     "firstName": "Fawn",
-    "lastName": "Lee"
+    "lastName": "Lee",
+    "gender" : "F"
   }
 }
