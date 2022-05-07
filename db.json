@@ -1,9 +1,16 @@
 {
   
-  "user": {
+  "user": [{
     "id": 1,
     "firstName": "Fawn",
     "lastName": "Lee",
     "gender" : "F"
-  }
+  },
+       {
+    "id": 2,
+    "firstName": "Dave",
+    "lastName": "Wang",
+    "gender" : "M"
+  }   
+          ]
 }
